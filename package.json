@@ -1,0 +1,27 @@
+{
+  "name": "rental-property-manager-service",
+  "description": "API services for rental-property-manager application",
+  "version": "0.1.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "server": "yarn start",
+    "dev": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JuanCarlosHernandezPuebla/rental-property-manager-service"
+  },
+  "author": "Juan Carlos Hernandez Puebla",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "bcrypt": "^3.0.2",
+    "connect-mongo": "^2.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "mongoose": "^5.3.4",
+    "nodemon": "^2.0.2"
+  }
+}
