@@ -7,6 +7,6 @@ Must have Nodes.js installed
 
 #Getting Started
 1. Install Yarn
-2. Start MongoDB: 
+2. Start MongoDB:
   On Ubuntu: `sudo service mongod start`
 3. Run application: `yarn start`
