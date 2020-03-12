@@ -11,7 +11,7 @@ router.post('/login', (req, res, next) => {
         return next(err);
       } else {
         req.session.userId = user._id;
-        return res.redirect('/overview');
+        return res.status(200).json({ success: true });
       }
     });
   } else {
@@ -36,10 +36,7 @@ router.post('/create', (req, res, next) => {
         return next(error);
       } else {
         req.session.userId = user._id;
-        return res.status(200).json({
-          success: true,
-          redirectUrl: '/overview'
-        });
+        return res.status(200).json({ success: true });
       }
     });
 
